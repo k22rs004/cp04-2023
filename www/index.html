@@ -204,7 +204,8 @@
     
  
     // 繰り返し実行する処理
-    function timer(){  
+    function timer(){ 
+
         if(active){
           var time = parseInt((new Date() - startTime)/1000);
           var rest = period - time;
@@ -230,7 +231,7 @@
 
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
-    <button id="btnA">ButtonA</button>  
+    <button id="btnA">Start</button>  
     <button id="btnB">ButtonB</button>  
     <button id="btnC">ButtonC</button>  
     <input type="number" id="minute" value=3 >
