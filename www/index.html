@@ -241,6 +241,11 @@
     function btnEClick(e){
         active = false;
         E = E*-1;
+        if(E==1){
+            $("#btnE").css("background-color","white");
+        }else{
+            $("#btnE").css("background-color","red");
+        }
     }
 
     
